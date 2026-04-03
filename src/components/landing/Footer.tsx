@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-7 h-7 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Mail className="w-3.5 h-3.5 text-primary-foreground" />
             </div>
-            <span className="text-base font-bold text-hero-foreground">​Maily</span>
+            <span className="text-base font-bold text-hero-foreground">​Maily.biz</span>
           </div>
 
           <p className="text-sm text-hero-muted">
