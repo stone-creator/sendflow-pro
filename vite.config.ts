@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sendflow-pro/",
+  base: mode === "production" ? "/sendflow-pro/" : "/",
   server: {
     host: "::",
     port: 8080,
