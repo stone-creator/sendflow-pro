@@ -19,13 +19,17 @@ const CTASection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-            <Zap className="w-5 h-5 mr-2" />
-            서비스 문의하기
+          <Button size="lg" asChild className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
+            <a href="https://kmong.com/gig/653616" target="_blank" rel="noopener noreferrer">
+              <Zap className="w-5 h-5 mr-2" />
+              서비스 문의하기
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">
-            크몽에서 보기
-            <ArrowRight className="w-5 h-5 ml-2" />
+          <Button variant="outline" size="lg" asChild className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">
+            <a href="https://kmong.com/gig/653616" target="_blank" rel="noopener noreferrer">
+              크몽에서 보기
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
         </div>
       </div>
