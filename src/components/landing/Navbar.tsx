@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
             <Mail className="w-4 h-4 text-primary-foreground" />
           </div>
-          <span className="text-lg font-bold text-hero-foreground">​Maily</span>
+          <span className="text-lg font-bold text-hero-foreground">​Maily.biz</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
