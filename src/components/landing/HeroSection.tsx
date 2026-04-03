@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="bg-hero relative overflow-hidden">
-      {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-accent/5 blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-primary/10 blur-3xl" />
@@ -29,17 +28,20 @@ const HeroSection = () => {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
-          <Button size="lg" className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-            <Zap className="w-5 h-5 mr-2" />
-            서비스 문의하기
+          <Button size="lg" asChild className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
+            <a href="https://kmong.com/gig/653616" target="_blank" rel="noopener noreferrer">
+              <Zap className="w-5 h-5 mr-2" />
+              서비스 문의하기
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">
-            자세히 알아보기
-            <ArrowRight className="w-5 h-5 ml-2" />
+          <Button variant="outline" size="lg" asChild className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">
+            <a href="https://kmong.com/gig/653616" target="_blank" rel="noopener noreferrer">
+              자세히 알아보기
+              <ArrowRight className="w-5 h-5 ml-2" />
+            </a>
           </Button>
         </div>
 
-        {/* Stats bar */}
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-3xl">
           {[
             { value: "200만+", label: "월 최대 발송량" },

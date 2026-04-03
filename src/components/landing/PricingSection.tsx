@@ -16,7 +16,7 @@ const features = [
 
 const PricingSection = () => {
   return (
-    <section className="py-24 bg-secondary/30">
+    <section id="pricing" className="py-24 bg-secondary/30">
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">Pricing</span>
@@ -48,9 +48,11 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <Button className="w-full bg-gradient-primary text-primary-foreground py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-                <Zap className="w-5 h-5 mr-2" />
-                서비스 신청하기
+              <Button asChild className="w-full bg-gradient-primary text-primary-foreground py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
+                <a href="https://kmong.com/gig/653616" target="_blank" rel="noopener noreferrer">
+                  <Zap className="w-5 h-5 mr-2" />
+                  서비스 신청하기
+                </a>
               </Button>
             </div>
           </div>
