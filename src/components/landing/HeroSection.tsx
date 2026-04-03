@@ -1,4 +1,4 @@
-import { Mail, ArrowRight, Sparkles } from "lucide-react";
+import { Cloud, ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
