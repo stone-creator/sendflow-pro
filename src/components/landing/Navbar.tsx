@@ -1,4 +1,4 @@
-import { Zap } from "lucide-react";
+import { Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
