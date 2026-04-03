@@ -1,4 +1,4 @@
-import { Mail, ArrowRight } from "lucide-react";
+import { Zap, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
@@ -20,7 +20,7 @@ const CTASection = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-            <Mail className="w-5 h-5 mr-2" />
+            <Zap className="w-5 h-5 mr-2" />
             서비스 문의하기
           </Button>
           <Button variant="outline" size="lg" className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">

@@ -1,4 +1,4 @@
-import { Check, Mail } from "lucide-react";
+import { Check, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const features = [
@@ -49,7 +49,7 @@ const PricingSection = () => {
               </div>
 
               <Button className="w-full bg-gradient-primary text-primary-foreground py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-                <Mail className="w-5 h-5 mr-2" />
+                <Zap className="w-5 h-5 mr-2" />
                 서비스 신청하기
               </Button>
             </div>
