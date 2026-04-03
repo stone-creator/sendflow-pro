@@ -14,6 +14,7 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE_URL: /sendflow-pro/
+          BASE_URL: /sendflow-pro/
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
