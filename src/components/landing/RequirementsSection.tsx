@@ -41,7 +41,7 @@ const RequirementsSection = () => {
           {requirements.map((req, index) => (
             <div
               key={req.title}
-              className="flex gap-5 p-6 rounded-2xl border border-border bg-card"
+              className="flex gap-5 p-6 rounded-2xl border border-stat-border bg-stat/40"
             >
               <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
                 <req.icon className="w-6 h-6 text-primary" />
