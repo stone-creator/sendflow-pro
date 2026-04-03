@@ -18,7 +18,7 @@ const stats = [
 
 const PerformanceSection = () => {
   return (
-    <section className="py-24 bg-hero relative overflow-hidden">
+    <section id="performance" className="py-24 bg-hero relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-accent/5 blur-3xl" />
       </div>
