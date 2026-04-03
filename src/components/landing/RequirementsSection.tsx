@@ -25,14 +25,14 @@ const requirements = [
 
 const RequirementsSection = () => {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-24 bg-hero">
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">Requirements</span>
-          <h2 className="mt-3 text-3xl md:text-4xl font-bold text-foreground">
+          <h2 className="mt-3 text-3xl md:text-4xl font-bold text-hero-foreground">
             의뢰인 준비사항
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 text-hero-muted max-w-2xl mx-auto">
             아래 항목만 준비해 주시면, 세팅·웜업·인증까지 모두 지원해 드립니다.
           </p>
         </div>
@@ -41,17 +41,17 @@ const RequirementsSection = () => {
           {requirements.map((req, index) => (
             <div
               key={req.title}
-              className="flex gap-5 p-6 rounded-2xl border border-border bg-card"
+              className="flex gap-5 p-6 rounded-2xl border border-stat-border bg-stat/40"
             >
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
-                <req.icon className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 rounded-xl bg-stat/60 flex items-center justify-center flex-shrink-0">
+                <req.icon className="w-6 h-6 text-accent" />
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-xs font-bold text-accent">0{index + 1}</span>
-                  <h3 className="font-semibold text-card-foreground">{req.title}</h3>
+                  <h3 className="font-semibold text-hero-foreground">{req.title}</h3>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">{req.description}</p>
+                <p className="text-sm text-hero-muted leading-relaxed">{req.description}</p>
               </div>
             </div>
           ))}
