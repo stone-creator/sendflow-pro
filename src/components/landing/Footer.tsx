@@ -9,11 +9,11 @@ const Footer = () => {
             <div className="w-7 h-7 rounded-lg bg-gradient-primary flex items-center justify-center">
               <Mail className="w-3.5 h-3.5 text-primary-foreground" />
             </div>
-            <span className="text-base font-bold text-hero-foreground">MailPro</span>
+            <span className="text-base font-bold text-hero-foreground">​Maily</span>
           </div>
 
           <p className="text-sm text-hero-muted">
-            © 2026 MailPro. 크몽을 통해 서비스를 제공합니다.
+            © 2026 ​Maily. 크몽을 통해 서비스를 제공합니다.
           </p>
         </div>
       </div>
