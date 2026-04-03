@@ -29,10 +29,10 @@ const RequirementsSection = () => {
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">Requirements</span>
-          <h2 className="mt-3 text-3xl md:text-4xl font-bold text-foreground">
+          <h2 className="mt-3 text-3xl md:text-4xl font-bold text-hero-foreground">
             의뢰인 준비사항
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-2xl mx-auto">
+          <p className="mt-4 text-hero-muted max-w-2xl mx-auto">
             아래 항목만 준비해 주시면, 세팅·웜업·인증까지 모두 지원해 드립니다.
           </p>
         </div>
