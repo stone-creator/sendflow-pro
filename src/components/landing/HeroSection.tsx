@@ -1,4 +1,4 @@
-import { Mail, ArrowRight, Sparkles } from "lucide-react";
+import { Cloud, ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -30,7 +30,7 @@ const HeroSection = () => {
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4">
           <Button size="lg" className="bg-gradient-primary text-primary-foreground px-8 py-6 text-base font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-glow">
-            <Mail className="w-5 h-5 mr-2" />
+            <Cloud className="w-5 h-5 mr-2" />
             서비스 문의하기
           </Button>
           <Button variant="outline" size="lg" className="border-stat-border text-hero-foreground px-8 py-6 text-base font-semibold rounded-xl hover:bg-stat/50 transition-colors bg-transparent">
