@@ -43,15 +43,15 @@ const RequirementsSection = () => {
               key={req.title}
               className="flex gap-5 p-6 rounded-2xl border border-stat-border bg-stat/40"
             >
-              <div className="w-12 h-12 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0">
-                <req.icon className="w-6 h-6 text-primary" />
+              <div className="w-12 h-12 rounded-xl bg-stat/60 flex items-center justify-center flex-shrink-0">
+                <req.icon className="w-6 h-6 text-accent" />
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-xs font-bold text-accent">0{index + 1}</span>
-                  <h3 className="font-semibold text-card-foreground">{req.title}</h3>
+                  <h3 className="font-semibold text-hero-foreground">{req.title}</h3>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">{req.description}</p>
+                <p className="text-sm text-hero-muted leading-relaxed">{req.description}</p>
               </div>
             </div>
           ))}
