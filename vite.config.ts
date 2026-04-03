@@ -5,7 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/sendflow-pro/",  // 이 줄 추가
   server: {
     host: "::",
     port: 8080,
