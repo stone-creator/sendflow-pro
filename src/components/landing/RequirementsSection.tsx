@@ -25,7 +25,7 @@ const requirements = [
 
 const RequirementsSection = () => {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-24 bg-hero">
       <div className="container">
         <div className="text-center mb-16">
           <span className="text-sm font-semibold text-accent uppercase tracking-wider">Requirements</span>
