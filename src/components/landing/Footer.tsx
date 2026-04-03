@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           <p className="text-sm text-hero-muted">
-            © 2026 ​Maily. 크몽을 통해 서비스를 제공합니다.
+            © 2026 ​Maily.biz. 크몽을 통해 서비스를 제공합니다.
           </p>
         </div>
       </div>
